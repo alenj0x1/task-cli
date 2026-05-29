@@ -70,7 +70,7 @@ console.log(casoNumerico);
 console.log(casoString);
 console.log(casoBooleano);
 
-function decirHola(nombreDePersona: string): string | void {
+function decirHola(nombreDePersona: string): string {
     console.log(`Hola, ${nombreDePersona}, tu nombre tiene ${nombreDePersona.length} caracteres`)
 }
 

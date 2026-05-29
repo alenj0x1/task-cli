@@ -2,6 +2,10 @@
 
 Un gestor de tareas, completo, para usarlo desde la terminal
 
+## Arquitectura
+
+1. Caracteristicas (features)
+
 ## 1. Pasos para inicializar la estructura y proyecto
 
 ### 1.1 Inicializar nuestro proyecto con npm
