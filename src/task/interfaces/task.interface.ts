@@ -1,4 +1,4 @@
-import { TaskStatus } from "./task.types.js";
+import { TaskStatus } from "../task.types.js";
 
 export interface Task {
     readonly id: number; // INCREMENTAL INT -> number | UUID -> string

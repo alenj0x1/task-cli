@@ -20,7 +20,8 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "tsc && node ."
   },
   "devDependencies": {
     "typescript": "^6.0.3"

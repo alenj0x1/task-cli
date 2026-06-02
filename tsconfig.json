@@ -1,7 +1,8 @@
 {
-	"compilerOptions": {
-		"strict": true,
-		"rootDir": "./src", // Aqui van a estar, todos mis archivos .ts
-		"outDir": "./dist" // Aqui se generará toda la compilación, de archivos .ts a archivos .js
-	}
+  "compilerOptions": {
+    "strict": true,
+    "rootDir": "./src", // Aqui van a estar, todos mis archivos .ts
+    "outDir": "./dist" // Aqui se generará toda la compilación, de archivos .ts a archivos .js
+  },
+  "exclude": ["explicaciones"]
 }
