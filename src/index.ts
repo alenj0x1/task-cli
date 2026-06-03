@@ -1,4 +1,4 @@
-import { TaskService } from "./task/task.service.js";
+import { TaskService } from "./features/task/task.service.js";
 
 const service = new TaskService();
 
