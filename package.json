@@ -21,13 +21,16 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc && node ."
+    "dev": "tsc && node .",
+    "dev:watch": "tsx --watch src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",
+    "tsx": "^4.22.4",
     "typescript": "^6.0.3"
   },
   "dependencies": {
-    "chalk": "^5.6.2"
+    "chalk": "^5.6.2",
+    "inquirer": "^14.0.2"
   }
 }

@@ -4,9 +4,12 @@ import { UpdateTaskDto } from "../dtos/update-task.dto";
 import { Task } from "./task.interface";
 
 export interface ITaskService {
-    add(data: CreateTaskDto): Task;
-    update(id: number, data: UpdateTaskDto): Task;
-    getById(id: number): Task;
+    add(data: CreateTaskDto): Promise<Task>;
+    update(id: number, data: UpdateTaskDto): Promise<Task>;
+    get(where: { id?: number, description?: string }): Task | null;
     all(data: FilterAllTask): Task[];
-    remove(id: number): boolean;
+    remove(id: number): Promise<boolean>;
+
+    fsInit(): void;
+    fsUpdate(): void;
 }
